@@ -1,0 +1,79 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f6f9fc 0%, #edf2f7 100%);
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    max-width: 400px;
+    width: 90%;
+}
+
+.timer {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    color: #2d3748;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -2px;
+}
+
+.controls button {
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.75rem 1.75rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#start {
+    background-color: #4F46E5;
+}
+
+#start:hover {
+    background-color: #4338CA;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
+}
+
+#reset {
+    background-color: #EF4444;
+}
+
+#reset:hover {
+    background-color: #DC2626;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+}
+
+#mode-toggle {
+    background-color: #3B82F6;
+}
+
+#mode-toggle:hover {
+    background-color: #2563EB;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+}
+
+#status-text {
+    font-size: 1.1rem;
+    color: #64748b;
+    margin-top: 1.5rem;
+    font-weight: 500;
+} 
